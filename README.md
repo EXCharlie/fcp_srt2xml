@@ -23,7 +23,9 @@ This is a tool that converts SRT files into Fcpxml files that can be imported in
 
 ## 📥 导入自定义的Fcpxml文件的使用方法
 **注意**：只支持简单的titles文字（只包含单个Text和text-style-def的简单的titles），因为原理就是读取Fcpxml文件的effect和text-style的element。
+
 <img src="https://github.com/EXCharlie/fcp_srt2xml/blob/main/pics/Screenshot02.jpg?raw=true" height="300">
+
 1. 将只包含单个 简单的titles 的时间线Export XML…（即.fcpxml格式）。
 2. 然后读取即可。
 
